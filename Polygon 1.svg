@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="288.895" height="312.937" viewBox="0 0 288.895 312.937">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fee400;
+        opacity: 0.26;
+      }
+
+      .cls-2 {
+        filter: url(#Polygon_1);
+      }
+    </style>
+    <filter id="Polygon_1" x="0" y="0" width="288.895" height="312.937" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="Polygon_1-2" data-name="Polygon 1" class="cls-1" d="M97.177,46.29a31,31,0,0,1,53.645,0l70.209,121.168A31,31,0,0,1,194.209,214H53.791a31,31,0,0,1-26.822-46.542Z" transform="matrix(-0.26, 0.97, -0.97, -0.26, 273.9, 58.39)"/>
+  </g>
+</svg>
